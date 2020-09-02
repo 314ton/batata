@@ -1,0 +1,10 @@
+{{ define "Show" }}
+  {{ template "Header" }}
+  {{ template "Menu" }}
+    <h2>Registro: {{ .Id }}</h2>
+
+    <p>{{ .Name }}</p>
+    <p>{{ .City }} </p>
+
+  {{ template "Footer" }}
+{{ end }}
